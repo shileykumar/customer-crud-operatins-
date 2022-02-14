@@ -1,0 +1,19 @@
+logging:
+  level:
+    ROOT: DEBUG
+    org.hibernate.sql: DEBUG
+    com.sunglowsys: DEBUG
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sunglowsys_db
+    username: postgres
+    password: Password@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect

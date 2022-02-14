@@ -78,7 +78,7 @@ public class CustomerResource {
                 .ok()
                 .body(result);
     }
-    
+
     @DeleteMapping("/customers/{id}")
     public ResponseEntity<Void> deleteCustomer(@PathVariable Long id) {
         log.debug("REST request to delete Customer : {}", id);

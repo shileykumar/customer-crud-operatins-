@@ -88,9 +88,9 @@
 - URL `http://localhost:8080/api/customers?page=0&size=10`
 
 
-###  Get All API
+###  Get By ID API
 - Method `GET`
-- URL `http://localhost:8080/api/customers?page=0&size=10`
+- URL `http://localhost:8080/api/customers/1`
 
 ###  Search API
 - Method `GET`
